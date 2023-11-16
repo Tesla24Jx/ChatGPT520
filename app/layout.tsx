@@ -6,8 +6,8 @@ import { getClientConfig } from "./config/client";
 import { type Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "ChatGPT Next Web",
-  description: "Your personal ChatGPT Chat Bot.",
+  title: "ChatGPT AI - 对接官方接口",
+  description: "设置里勾选“自定义接口”后会出现API Key，找到API Key(格式sk-xxx)输入后会自动保存，返回即可对话，免魔法。有问题联系QQ279879147",
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     { media: "(prefers-color-scheme: dark)", color: "#151515" },
   ],
   appleWebApp: {
-    title: "ChatGPT Next Web",
+    title: "ChatGPT520",
     statusBarStyle: "default",
   },
 };
