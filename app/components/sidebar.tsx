@@ -158,7 +158,7 @@ export function SideBar(props: { className?: string }) {
           ChatGPT
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          在设置里自定义接口中找到API Key输入你自己Key,程序会自动保存，返回即可对话
+          设置里勾选“自定义接口”后会出现API Key，找到API Key(格式sk-xxx)输入后会自动保存，返回即可对话，免魔法。有问题联系QQ279879147
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
